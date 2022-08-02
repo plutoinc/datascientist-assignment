@@ -1,4 +1,7 @@
 # Yearly windowed h-index
+```
+해당 repository 를 fork 한 뒤, fork 된 repository 에서 과제를 수행해 주세요.
+```
 
 ## Dataset
 - `paper_author.csv` 파일은 다음과 같은 column 으로 이루어져 있습니다.
