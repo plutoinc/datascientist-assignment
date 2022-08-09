@@ -26,12 +26,24 @@
 ***Windowed h-index*** 는 window 의 크기를 정하여 계산하는 방식으로, 기준 년도에서 *n* 년 이내에 작성된 논문만을 이용하여 계산된 h-index 입니다. 표기는 h*n*-index 로 표기하는데, 예를 들어, 만약 2년 내의 출판물로 계산한 경우 h2-index 로 표기합니다.
 
 
-## Requirements
-> 모든 답변은 repository 내에 존재하고 있는 `answer<n>.sql` 내에 작성해주세요.
+## Assignments
+> **Requirements**
 > 
-> 모든 답변은 ***sqlite*** engine 상에서 작동하는 SQL 쿼리로 작성해주세요.
+> 모든 답변은 repository 내에 존재하고 있는 `answer<n>.sql` 와 `answer.py` 내에 작성해주세요.
+> 
+> `SQL`
 >
+> 모든 답변은 [***sqlite***](https://www.sqlite.org/lang.html) 에서 작동하는 SQL 쿼리로 작성해주세요.
+> 
 > 주어진 데이터를 이용해 생성된 테이블명은 `paper_author` 와 `paper_reference` 라고 가정합니다.
+>
+> `Python`
+>
+> 모든 답변은 [***pandas***](https://pandas.pydata.org/docs/reference/index.html#api) 만을 이용하여 작동하는 python 코드로 작성해주세요.
+>
+> 각 항목의 답은 `answer.py` 내의 `answer<n>()` 함수 내에 작성해주세요.
+>
+> `Common requirements`
 >
 > 모든 날짜는 말일을 기준으로 계산합니다.
 >
