@@ -20,3 +20,6 @@ def answer6():
 
 def answer7():
     pass
+
+def answer8():
+    pass

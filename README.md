@@ -54,5 +54,6 @@
 3. 각 저자의 년-월*yyyy-MM*별 출판수와 인용수를 구하는 쿼리를 작성하세요. *(author_id\<string>, yearmonth\<string>, publication_count\<int>, citation_count\<int>)*
 4. 각 저자의 h-index 를 구하는 쿼리를 작성하세요. *(author_id\<string>, hindex\<int>)*
 5. 각 저자의 h5-index 를 구하는 쿼리를 작성하세요. *(author_id\<string>, h5index\<int>)*
-6. 각 저자의 년도*yyyy*별 해당 시점에서의 h5-index 를 구하는 쿼리를 작성하세요. *(author_id\<string>, year\<int>, h5index\<int>)*
-7. 각 저자의 년-월*yyyy-MM*별 해당 시점에서의 h5-index 를 구하는 쿼리를 작성하세요. *(author_id\<string>, yearmonth\<string>, h5index\<int>)*
+6. 각 저자의 년도*yyyy*별 해당 시점에서의 h-index 를 구하는 쿼리를 작성하세요. *(author_id\<string>, year\<int>, hindex\<int>)*
+7. 각 저자의 년도*yyyy*별 해당 시점에서의 h5-index 를 구하는 쿼리를 작성하세요. *(author_id\<string>, year\<int>, h5index\<int>)*
+8. 각 저자의 년-월*yyyy-MM*별 해당 시점에서의 h5-index 를 구하는 쿼리를 작성하세요. *(author_id\<string>, yearmonth\<string>, h5index\<int>)*
