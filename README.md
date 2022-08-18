@@ -26,18 +26,17 @@
 ***Windowed h-index*** 는 window 의 크기를 정하여 계산하는 방식으로, 기준 년도에서 *n* 년 이내에 작성된 논문만을 이용하여 계산된 h-index 입니다. 표기는 h*n*-index 로 표기하는데, 예를 들어, 만약 2년 내의 출판물로 계산한 경우 h2-index 로 표기합니다.
 
 
-## Assignments
-> **Requirements**
+## Requirements
 > 
 > 모든 답변은 repository 내에 존재하고 있는 `answer<n>.sql` 와 `answer.py` 내에 작성해주세요.
-> 
-> `SQL`
+
+> ***SQL***
 >
 > 모든 답변은 [***sqlite***](https://www.sqlite.org/lang.html) 에서 작동하는 SQL 쿼리로 작성해주세요.
 > 
 > 주어진 데이터(`paper_author.csv`, `paper_reference.csv`) 를 이용해 생성된 테이블명은 `paper_author` 와 `paper_reference` 라고 가정합니다.
->
-> `Python`
+
+> ***Python***
 >
 > `Python 3.10` 버전을 기준으로 하여 작성해주세요.
 >
@@ -46,12 +45,14 @@
 > 각 항목의 답은 `answer.py` 내의 `answer<n>()` 함수 내에 작성해주세요.
 > 
 > 모든 함수의 리턴 타입은 `pandas.DataFrame` 입니다.
->
-> `Common requirements`
+
+> ***Common requirements***
 >
 > 모든 날짜는 말일을 기준으로 계산합니다.
 >
 > 출력값의 column 은 각 문항의 마지막 괄호 안의 이름과 순서, 자료형을 따라주세요.
+
+## Assignments
 
 1. 각 저자의 출판수와 인용수를 구하세요. *(author_id\<string>, publication_count\<int>, citation_count\<int>)*
 2. 각 저자의 년도*yyyy*별 출판수와 인용수를 구하세요. *(author_id\<string>, year\<int>, publication_count\<int>, citation_count\<int>)*
