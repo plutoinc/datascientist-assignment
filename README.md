@@ -35,13 +35,17 @@
 >
 > 모든 답변은 [***sqlite***](https://www.sqlite.org/lang.html) 에서 작동하는 SQL 쿼리로 작성해주세요.
 > 
-> 주어진 데이터를 이용해 생성된 테이블명은 `paper_author` 와 `paper_reference` 라고 가정합니다.
+> 주어진 데이터(`paper_author.csv`, `paper_reference.csv`) 를 이용해 생성된 테이블명은 `paper_author` 와 `paper_reference` 라고 가정합니다.
 >
 > `Python`
 >
-> 모든 답변은 [***pandas***](https://pandas.pydata.org/docs/reference/index.html#api) 만을 이용하여 작동하는 python 코드로 작성해주세요.
+> `Python 3.10` 버전을 기준으로 하여 작성해주세요.
+>
+> 모든 답변은 [***pandas***](https://pandas.pydata.org/docs/reference/index.html#api) 만을 이용하여 작동하는 python 코드로 작성해주세요. 이외의 Third-party library 사용은 *금지합니다*.
 >
 > 각 항목의 답은 `answer.py` 내의 `answer<n>()` 함수 내에 작성해주세요.
+> 
+> 모든 함수의 리턴 타입은 `pandas.DataFrame` 입니다.
 >
 > `Common requirements`
 >
@@ -49,11 +53,11 @@
 >
 > 출력값의 column 은 각 문항의 마지막 괄호 안의 이름과 순서, 자료형을 따라주세요.
 
-1. 각 저자의 출판수와 인용수를 구하는 쿼리를 작성하세요. *(author_id\<string>, publication_count\<int>, citation_count\<int>)*
-2. 각 저자의 년도*yyyy*별 출판수와 인용수를 구하는 쿼리를 작성하세요. *(author_id\<string>, year\<int>, publication_count\<int>, citation_count\<int>)*
-3. 각 저자의 년-월*yyyy-MM*별 출판수와 인용수를 구하는 쿼리를 작성하세요. *(author_id\<string>, yearmonth\<string>, publication_count\<int>, citation_count\<int>)*
-4. 각 저자의 h-index 를 구하는 쿼리를 작성하세요. *(author_id\<string>, hindex\<int>)*
-5. 각 저자의 h5-index 를 구하는 쿼리를 작성하세요. *(author_id\<string>, h5index\<int>)*
-6. 각 저자의 년도*yyyy*별 해당 시점에서의 h-index 를 구하는 쿼리를 작성하세요. *(author_id\<string>, year\<int>, hindex\<int>)*
-7. 각 저자의 년도*yyyy*별 해당 시점에서의 h5-index 를 구하는 쿼리를 작성하세요. *(author_id\<string>, year\<int>, h5index\<int>)*
-8. 각 저자의 년-월*yyyy-MM*별 해당 시점에서의 h5-index 를 구하는 쿼리를 작성하세요. *(author_id\<string>, yearmonth\<string>, h5index\<int>)*
+1. 각 저자의 출판수와 인용수를 구하세요. *(author_id\<string>, publication_count\<int>, citation_count\<int>)*
+2. 각 저자의 년도*yyyy*별 출판수와 인용수를 구하세요. *(author_id\<string>, year\<int>, publication_count\<int>, citation_count\<int>)*
+3. 각 저자의 년-월*yyyy-MM*별 출판수와 인용수를 구하세요. *(author_id\<string>, yearmonth\<string>, publication_count\<int>, citation_count\<int>)*
+4. 각 저자의 h-index 를 구하세요. *(author_id\<string>, hindex\<int>)*
+5. 각 저자의 h5-index 를 구하세요. *(author_id\<string>, h5index\<int>)*
+6. 각 저자의 년도*yyyy*별 해당 시점에서의 h-index 를 구하세요. *(author_id\<string>, year\<int>, hindex\<int>)*
+7. 각 저자의 년도*yyyy*별 해당 시점에서의 h5-index 를 구하세요. *(author_id\<string>, year\<int>, h5index\<int>)*
+8. 각 저자의 년-월*yyyy-MM*별 해당 시점에서의 h5-index 를 구하세요. *(author_id\<string>, yearmonth\<string>, h5index\<int>)*
